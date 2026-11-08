@@ -1,0 +1,46 @@
+track: "Track B: CHB-MIT Clinical Patient-Grouped Evaluation"
+dataset:
+  name: "CHB-MIT Scalp EEG"
+  data_dir: "data/raw/chbmit"
+  sampling_rate: 256.0
+  pilot_patients:
+    train: ["chb01", "chb02", "chb03", "chb04"]
+    test: ["chb05", "chb06"]
+
+windowing:
+  window_sec: 10.0
+  overlap_sec: 0.0
+  seizure_overlap_threshold: 0.5
+
+preprocessing:
+  filter:
+    lowcut: 0.5
+    highcut: 40.0
+    order: 4
+    notch_freq: 60.0  # US powerline frequency for MIT
+
+features:
+  multichannel_strategy: "mean"
+  include_time: true
+  include_freq: true
+  include_wavelet: true
+  include_nonlinear: true
+
+experiments:
+  random_state: 42
+  models:
+    - "svm"
+    - "random_forest"
+  strategies:
+    - "E0"
+    - "E1"
+    - "E2"
+    - "E3"
+    - "E4"
+    - "E5"
+    - "E6"
+
+timeline_evaluation:
+  max_gap_sec: 20.0
+  collar_sec: 10.0
+

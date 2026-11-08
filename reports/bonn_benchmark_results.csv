@@ -1,0 +1,15 @@
+track,model,strategy,train_samples,test_samples,sensitivity,specificity,precision,f1,macro_f1,accuracy,roc_auc,pr_auc,tp,tn,fp,fn
+Track A (Bonn),svm,E0,75,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),svm,E1,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),svm,E2,30,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),svm,E3,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),svm,E4,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),svm,E5,75,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),svm,E6,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),random_forest,E0,75,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),random_forest,E1,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),random_forest,E2,30,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),random_forest,E3,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),random_forest,E4,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),random_forest,E5,75,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0
+Track A (Bonn),random_forest,E6,120,25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,20,0,0

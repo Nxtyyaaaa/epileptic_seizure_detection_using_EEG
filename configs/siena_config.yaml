@@ -1,0 +1,18 @@
+track: "Track C: Siena Cross-Dataset External Evaluation"
+dataset:
+  name: "Siena Scalp EEG"
+  data_dir: "data/raw/siena"
+  native_fs: 512.0
+  target_fs: 256.0
+
+harmonization:
+  downsample: true
+  anti_alias_filter: true
+  common_channels_only: true
+
+evaluation:
+  source_dataset: "CHB-MIT"
+  target_dataset: "Siena"
+  model: "random_forest"
+  best_strategy: "E3"
+

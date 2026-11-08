@@ -1,0 +1,36 @@
+track: "Track A: Bonn EEG Controlled Benchmark"
+dataset:
+  name: "Bonn EEG"
+  data_dir: "data/raw/bonn"
+  sampling_rate: 173.61
+  samples_per_segment: 4096
+  task: "binary"  # "binary" (E vs A-D) or "multiclass"
+
+preprocessing:
+  filter:
+    lowcut: 0.5
+    highcut: 40.0
+    order: 4
+    notch_freq: 50.0
+
+features:
+  include_time: true
+  include_freq: true
+  include_wavelet: true
+  include_nonlinear: true
+
+experiments:
+  test_size: 0.25
+  random_state: 42
+  models:
+    - "svm"
+    - "random_forest"
+  strategies:
+    - "E0"  # No balancing (Baseline)
+    - "E1"  # Random Over-Sampling
+    - "E2"  # Random Under-Sampling
+    - "E3"  # SMOTE
+    - "E4"  # Borderline-SMOTE
+    - "E5"  # Class-Weighted Learning
+    - "E6"  # Signal-Level Augmentation
+

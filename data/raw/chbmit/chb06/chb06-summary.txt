@@ -1,0 +1,5 @@
+Data File Name: chb06_01.edf
+File Name: chb06_01.edf
+Number of Seizures in File: 1
+Seizure 1 Start Time: 40 seconds
+Seizure 1 End Time: 70 seconds

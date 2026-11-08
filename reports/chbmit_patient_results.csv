@@ -1,0 +1,15 @@
+track,model,strategy,train_windows,test_windows,sensitivity,specificity,precision,f1,macro_f1,accuracy,roc_auc,pr_auc,tp,tn,fp,fn,event_sensitivity,false_alarms_per_hour,total_events_detected
+Track B (CHB-MIT),svm,E0,48,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),svm,E1,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),svm,E2,24,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),svm,E3,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),svm,E4,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),svm,E5,48,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),svm,E6,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),random_forest,E0,48,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),random_forest,E1,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),random_forest,E2,24,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),random_forest,E3,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),random_forest,E4,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),random_forest,E5,48,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
+Track B (CHB-MIT),random_forest,E6,72,24,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,6,18,0,0,1.0,0.0,2
